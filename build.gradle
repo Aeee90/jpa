@@ -23,6 +23,10 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
+
+    implementation 'org.mariadb.jdbc:mariadb-java-client:2.4.0'
+    implementation 'org.hibernate:hibernate-core:5.4.1.Final'
+    implementation 'org.apache.tomcat:tomcat-dbcp:9.0.16'
 }
 
 compileKotlin {
